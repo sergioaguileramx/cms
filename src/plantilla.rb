@@ -56,26 +56,45 @@ class Plantilla
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Sergio Aguilera> Web Developer- Rubyholic - Githubber</title>
-
-    <!-- Bootstrap core CSS -->
-    <link href="/css/bootstrap.css" rel="stylesheet">
-
-      
-    <!--Fonts-->
-    <link href=2http://fonts.googleapis.com/css?family=Raleway:400,200" rel="stylesheet" type="text/css">
-    <link href="http://fonts.googleapis.com/css?family=Exo+2:400,300" rel="stylesheet" type="text/css">
-
-      
-  
-    <!-- Add custom CSS here -->
-    <link href="/css/style.css" rel="stylesheet">
-    <link rel="stylesheet" href="http://fontawesome.io/assets/font-awesome/css/font-awesome.css">
-    <!-- Page Specific CSS -->
-    <link rel="stylesheet" href="http://cdn.oesmith.co.uk/morris-0.4.3.min.css">
-  </head>
-
-  <body>
+    <title>Sergio Aguilera> Web Developer- Rubyholic - Githubber</title>'
+        
+        if en_raiz
+                    a << '    <!-- Bootstrap core CSS -->
+            <link href="/css/bootstrap.css" rel="stylesheet">
+        
+              
+            <!--Fonts-->
+            <link href=2http://fonts.googleapis.com/css?family=Raleway:400,200" rel="stylesheet" type="text/css">
+            <link href="http://fonts.googleapis.com/css?family=Exo+2:400,300" rel="stylesheet" type="text/css">
+        
+              
+          
+            <!-- Add custom CSS here -->
+            <link href="/css/style.css" rel="stylesheet">
+            <link rel="stylesheet" href="http://fontawesome.io/assets/font-awesome/css/font-awesome.css">
+            <!-- Page Specific CSS -->
+            <link rel="stylesheet" href="http://cdn.oesmith.co.uk/morris-0.4.3.min.css">
+          </head>'
+                else
+                    a <<'<!-- Bootstrap core CSS -->
+            <link href="../css/bootstrap.css" rel="stylesheet">
+        
+              
+            <!--Fonts-->
+            <link href=2http://fonts.googleapis.com/css?family=Raleway:400,200" rel="stylesheet" type="text/css">
+            <link href="http://fonts.googleapis.com/css?family=Exo+2:400,300" rel="stylesheet" type="text/css">
+        
+              
+          
+            <!-- Add custom CSS here -->
+            <link href="../css/style.css" rel="stylesheet">
+            <link rel="stylesheet" href="http://fontawesome.io/assets/font-awesome/css/font-awesome.css">
+            <!-- Page Specific CSS -->
+            <link rel="stylesheet" href="http://cdn.oesmith.co.uk/morris-0.4.3.min.css">
+          </head>
+        '
+       end     
+      a << '<body>
 
     <div id="wrapper">
 
