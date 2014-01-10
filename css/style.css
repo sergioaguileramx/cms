@@ -1,0 +1,124 @@
+
+/*Author: Sergio Aguilera - sergio@movimientolibre.com 
+  Github: http://github.com/sergioaguilera
+  Twitter: http://twitter.com/sergioaaguilera
+*/
+
+/* Global Styles */
+*{font-family: 'Raleway', sans-serif;}
+
+h1, h3{font-family: 'Exo 2', sans-serif;}
+
+hr{height:1px; background-color:#777777;}
+
+#webinfo-title {font-family: 'Raleway', sans-serif;}
+
+.webinfo{
+margin-top:50px;
+color:#ffffff;
+font-weight:bold;
+margin-bottom:20px;}
+
+#webinfo-tags{
+margin-top:130px;
+color:#ffffff;
+padding-left:15px;}
+
+
+#license{text-decoration:none; 
+         color:#888888;}
+
+#license:hover{text-decoration:none; 
+                color:#8a9ade;}
+
+.social{color:#9b9b9b; 
+         padding-right:10px;
+         padding-left:10px;
+         font-size:17px;
+         text-align:center;}
+
+.social:hover{text-decoration:none; 
+                color:#8adea4;}
+body {
+  margin-top: 50px;
+}
+
+#wrapper {
+  padding-left: 0;
+}
+
+#page-wrapper {
+  width: 100%;
+  padding: 5px 15px;
+    text-align:justify;
+    padding-right:55px;
+}
+
+@media (min-width:768px) {
+
+  #wrapper {
+	padding-left: 225px;
+  }
+
+  #page-wrapper {
+    margin-left:130px;
+    margin-right:180px;    
+    width:900px;
+  }
+
+    #webinfo-text{
+    font-weight:bold;
+    font-family: 'Raleway', sans-serif;
+    font-size:15px;
+    }
+    .post-text{
+    padding-left:20px;;
+    }
+    
+  /* Side Nav */
+  .side-nav {
+	margin-left:-225px;
+	left: 225px;
+	width: 310px;
+	position: fixed;
+	top: 50px;
+	height: 100%;
+	border-radius: 0;
+	border: none;
+	background-color: #222222;
+	overflow-y: auto;
+  }
+
+  .side-nav>li.dropdown>ul.dropdown-menu {
+	position: relative;
+	min-width: 225px;
+	margin: 0;
+	padding: 0;
+	border: none;
+	border-radius: 0;
+	background-color: transparent;
+	box-shadow: none;
+	-webkit-box-shadow: none;
+  }
+
+  .side-nav>li.dropdown>ul.dropdown-menu>li>a {
+	color: #999999;
+	padding: 15px 15px 15px 25px;
+  }
+
+  .side-nav>li.dropdown>ul.dropdown-menu>li>a:hover,
+  .side-nav>li.dropdown>ul.dropdown-menu>li>a.active,
+  .side-nav>li.dropdown>ul.dropdown-menu>li>a:focus {
+	color: #fff;
+	background-color: #080808;
+  }
+
+  .side-nav>li>a {
+	width: 310px;
+  }
+
+  .navbar-inverse .navbar-nav>li>a:hover,
+  .navbar-inverse .navbar-nav>li>a:focus {
+	background-color: #080808;
+  }
+

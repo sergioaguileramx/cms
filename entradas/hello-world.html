@@ -1,54 +1,4 @@
-# encoding: utf-8
-############################################################################
-#    Copyright (C) 2013 by Guillermo Valdes Lozano                         #
-#    guivaloz@movimientolibre.com                                          #
-#                                                                          #
-#    This program is free software; you can redistribute it and#or modify  #
-#    it under the terms of the GNU General Public License as published by  #
-#    the Free Software Foundation; either version 2 of the License, or     #
-#    (at your option) any later version.                                   #
-#                                                                          #
-#    This program is distributed in the hope that it will be useful,       #
-#    but WITHOUT ANY WARRANTY; without even the implied warranty of        #
-#    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the         #
-#    GNU General Public License for more details.                          #
-#                                                                          #
-#    You should have received a copy of the GNU General Public License     #
-#    along with this program; if not, write to the                         #
-#    Free Software Foundation, Inc.,                                       #
-#    59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.             #
-############################################################################
-
-#
-# Clase Plantilla
-#
-class Plantilla
-
-    #
-    # Propiedades modificables
-    #
-    attr_writer :titulo_sitio, :frase_sitio, :grafico_encabezado, :menu_principal, :menu_secundario, :contenido_secundario, :pie_html, :archivo_rss
-
-    #
-    # Valores por defecto de las propiedades
-    #
-    def initialize
-        # Propiedades modificables
-        @titulo_sitio = 'Título del sitio'
-        @frase_sitio  = 'Descripción del sitio'
-    end
-
-    #
-    # Entrega el HTML de la página web
-    #
-    # titulo    es cadena de texto que se agrega al title
-    # contenido es el contenido de la página en HTML
-    # en_raiz   es boleano, verdadero si el archivo va a la raiz del sitio
-    #
-    public
-    def to_html(titulo, contenido, en_raiz=false)
-        a = Array.new
-        a << '<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="es">
   <head>
     <meta charset="utf-8">
@@ -125,28 +75,26 @@ class Plantilla
       <div id="page-wrapper">
  
         <div class="row">
-          <div class="col-lg-12">'
-        a << '    <!-- CONTENIDO -->'
-        a << "    <h1>#{titulo}</h1>"
-        a << contenido
-        a << '  </div><!-- /.row -->
+          <div class="col-lg-12">
+    <!-- CONTENIDO -->
+    <h1>Hello World!</h1>
+  <p><small>2014-01-01 7:05 - Sergio Aguilera</small></p>
+
+<p>En el 2008  inicie de manera &#8220;oficial&#8221; mi travesia por internet, iniciando con un pequeño blog dedicado a la musica china (si china, no koreana  ni japonesa&#8230; china), fue mi primer contacto con la blogosfera y con el desarrollo web, que mas que desarrollo era simplemente la modificación de algunas etiquetas.</p>
+
+<p>Tiempo despues, dejo ese blog en el aire para dar creación a uno mas personal, en donde  poder publicar todo lo que me  gustara, sin sentir que invadia el espacio creado para otros fines, despues de esto, una avalancha de  nuevas experiencias en la web y las tecnologias me inundan, empezando por la llegada del software libre  y con  <a href="http://gulag.org.mx">el grupo de usuarios de GNU/Linux de la Laguna</a>.</p>
+
+<p>Gradualmente, como lo dijo alguna vez Steve Jobs, solo fue cuestión de &#8220;<em>unir los puntos</em>&#8221;, Aquel camino que desde hace mas de 4 años habia empezado a forjar al final parecia tener un verdadero fin.</p>
+
+<p>Hoy dia comienzo un nuevo ciclo con un blog dedicado a mis pasiones,no busques nada excepcional, pues solo encontraras un puñado de anecdotas y  entradas, redactadas por un servidor.</p>
+
+
+  </div><!-- /.row -->
 
       </div><!-- /#page-wrapper -->
 
-    </div><!-- /#wrapper -->'
-        if en_raiz
-            a << '<!-- JavaScript -->
-    <script src="js/jquery-1.10.2.js"></script>
-    <script src="js/bootstrap.js"></script>
-
-    <!-- Page Specific Plugins -->
-    <script src="//cdnjs.cloudflare.com/ajax/libs/raphael/2.1.0/raphael-min.js"></script>
-    <script src="http://cdn.oesmith.co.uk/morris-0.4.3.min.js"></script>
-    <script src="js/morris/chart-data-morris.js"></script>
-    <script src="js/tablesorter/jquery.tablesorter.js"></script>
-    <script src="js/tablesorter/tables.js"></script>'
-            else
-            a << '<!-- JavaScript -->
+    </div><!-- /#wrapper -->
+<!-- JavaScript -->
     <script src="../js/jquery-1.10.2.js"></script>
     <script src="../js/bootstrap.js"></script>
 
@@ -155,11 +103,6 @@ class Plantilla
     <script src="http://cdn.oesmith.co.uk/morris-0.4.3.min.js"></script>
     <script src="../js/morris/chart-data-morris.js"></script>
     <script src="../js/tablesorter/jquery.tablesorter.js"></script>
-    <script src="../js/tablesorter/tables.js"></script>'
-        end
-        a << '</body>'
-        a << '</html>'
-        a.join("\n")
-    end
-
-end
+    <script src="../js/tablesorter/tables.js"></script>
+</body>
+</html>

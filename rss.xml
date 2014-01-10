@@ -1,90 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0"
-  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+<rss xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  version="2.0"
   xmlns:dc="http://purl.org/dc/elements/1.1/"
-  xmlns:trackback="http://madskills.com/public/xml/rss/module/trackback/"
-  xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
+  xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd"
+  xmlns:trackback="http://madskills.com/public/xml/rss/module/trackback/">
   <channel>
-    <title>CMS de Movimiento Libre</title>
-    <link>http://cms.movimientolibre.com</link>
-    <description>Administrador de contenidos programado en Ruby. Ahora con Twitter Bootstrap.</description>
+    <title>Sergio Aguilera&gt; Web Developer - Githubber - Rubyholic</title>
+    <link>http://blog.sergioaguilera.mx</link>
+    <description>Blog dedicado a el desarrollo y las tecnologias</description>
     <item>
-      <title>Descargar la versión 1.3</title>
-      <link>http://cms.movimientolibre.com/descargar/ml-cms-1.3.html</link>
+      <title>Hello World!</title>
+      <link>http://blog.sergioaguilera.mx/entradas/hello-world.html</link>
       <description>
-&lt;p&gt;Este sitio web es elaborado con este script. Al descargar el archivo comprimido estará bajando todo el contenido de este sitio; esto le ayudará a comprender mejor su funcionamiento.&lt;/p&gt;
+&lt;p&gt;En el 2008  inicie de manera &amp;#8220;oficial&amp;#8221; mi travesia por internet, iniciando con un pequeño blog dedicado a la musica china (si china, no koreana  ni japonesa&amp;#8230; china), fue mi primer contacto con la blogosfera y con el desarrollo web, que mas que desarrollo era simplemente la modificación de algunas etiquetas.&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;https://github.com/MovimientoLibre/cms/releases/tag/1.3&quot;&gt;Descargar la versión 1.3 al 16/mayo/2008&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Tiempo despues, dejo ese blog en el aire para dar creación a uno mas personal, en donde  poder publicar todo lo que me  gustara, sin sentir que invadia el espacio creado para otros fines, despues de esto, una avalancha de  nuevas experiencias en la web y las tecnologias me inundan, empezando por la llegada del software libre  y con  &lt;a href=&quot;http://gulag.org.mx&quot;&gt;el grupo de usuarios de GNU/Linux de la Laguna&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Gradualmente, como lo dijo alguna vez Steve Jobs, solo fue cuestión de &amp;#8220;&lt;em&gt;unir los puntos&lt;/em&gt;&amp;#8221;, Aquel camino que desde hace mas de 4 años habia empezado a forjar al final parecia tener un verdadero fin.&lt;/p&gt;
+
+&lt;p&gt;Hoy dia comienzo un nuevo ciclo con un blog dedicado a mis pasiones,no busques nada excepcional, pues solo encontraras un puñado de anecdotas y  entradas, redactadas por un servidor.&lt;/p&gt;
 
 </description>
-      <author>guivaloz</author>
-      <pubDate>Fri, 16 May 2008 18:30:00 -0500</pubDate>
-      <dc:date>2008-05-16T18:30:00-05:00</dc:date>
-    </item>
-    <item>
-      <title>Screenshots</title>
-      <link>http://cms.movimientolibre.com/screenshots/screenshots.html</link>
-      <description>&lt;div class=&quot;screenshots&quot;&gt; &lt;a href=&quot;screenshots/gulag.jpg&quot;&gt;&lt;img src=&quot;screenshots/gulag-small.jpg&quot; title=&quot;GULAG&quot; alt=&quot;GULAG&quot; /&gt;&lt;/a&gt; &lt;a href=&quot;screenshots/institutodeciencia.jpg&quot;&gt;&lt;img src=&quot;screenshots/institutodeciencia-small.jpg&quot; title=&quot;Instituto de Ciencia&quot; alt=&quot;Instituto de Ciencia&quot; /&gt;&lt;/a&gt; &lt;a href=&quot;screenshots/movimientolibre.jpg&quot;&gt;&lt;img src=&quot;screenshots/movimientolibre-small.jpg&quot; title=&quot;Movimiento Libre&quot; alt=&quot;Movimiento Libre&quot; /&gt;&lt;/a&gt; &lt;a href=&quot;screenshots/rayasyrayas.jpg&quot;&gt;&lt;img src=&quot;screenshots/rayasyrayas-small.jpg&quot; title=&quot;Rayas y Rayas&quot; alt=&quot;Rayas y Rayas&quot; /&gt;&lt;/a&gt; &lt;/div&gt;</description>
-      <author>guivaloz</author>
-      <pubDate>Fri, 16 May 2008 18:15:00 -0500</pubDate>
-      <dc:date>2008-05-16T18:15:00-05:00</dc:date>
-    </item>
-    <item>
-      <title>Acerca del CMS de Movimiento Libre</title>
-      <link>http://cms.movimientolibre.com/acerca/acerca.html</link>
-      <description>
-&lt;p&gt;El CMS de Movimiento Libre es un sencillo sistema de gestión de contenidos, &lt;em&gt;Content Management System&lt;/em&gt; en inglés, abreviado &lt;a href=&quot;http://es.wikipedia.org/wiki/Cms&quot;&gt;CMS&lt;/a&gt;. Es un programa que permite crear una estructura de soporte para la creación y administración de contenidos de un sitio web.&lt;/p&gt;
-
-&lt;p&gt;Nace con la intensión de llevar a la práctica algunos conceptos básicos de programación en &lt;a href=&quot;http://es.wikipedia.org/wiki/Ruby&quot;&gt;Ruby&lt;/a&gt; para administrar los contenidos de &lt;a href=&quot;http://movimientolibre.com&quot;&gt;Movimiento Libre&lt;/a&gt; y es liberado bajo la &lt;a href=&quot;licencias/gpl-2.html&quot;&gt;Licencia GPL v2&lt;/a&gt;. Ha sido para su servidor un buen ejercicio para aprender este lenguaje de programación.&lt;/p&gt;
-
-</description>
-      <author>guivaloz</author>
-      <pubDate>Fri, 16 May 2008 18:00:00 -0500</pubDate>
-      <dc:date>2008-05-16T18:00:00-05:00</dc:date>
-    </item>
-    <item>
-      <title>Requerimientos</title>
-      <link>http://cms.movimientolibre.com/documentacion/requerimientos.html</link>
-      <description>
-&lt;p&gt;Para usar el CMS de Movimiento Libre necesita tener instalado:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;GNU/Linux&lt;/li&gt;
-  &lt;li&gt;Servidor &lt;a href=&quot;http://httpd.apache.org/&quot;&gt;Apache HTTP&lt;/a&gt; previamente configurado y probado.&lt;/li&gt;
-  &lt;li&gt;Intérprete del leguaje &lt;a href=&quot;http://www.ruby-lang.org/&quot;&gt;Ruby&lt;/a&gt;.&lt;/li&gt;
-  &lt;li&gt;La gema &lt;a href=&quot;http://whytheluckystiff.net/ruby/redcloth/&quot;&gt;RedCloth&lt;/a&gt;.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;En las instrucciones de instalación se explica cómo instalar Ruby y RedCloth:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Para Debian Linux.&lt;/li&gt;
-  &lt;li&gt;Para Gentoo Linux.&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-      <author>guivaloz</author>
-      <pubDate>Fri, 16 May 2008 17:50:00 -0500</pubDate>
-      <dc:date>2008-05-16T17:50:00-05:00</dc:date>
-    </item>
-    <item>
-      <title>Uso del OpenSSH para este CMS</title>
-      <link>http://cms.movimientolibre.com/documentacion/openssh.html</link>
-      <description>
-&lt;h4 id=&quot;para-subir-las-ltimas-publicaciones-a-su-servidor&quot;&gt;Para subir las últimas publicaciones a su servidor&lt;/h4&gt;
-
-&lt;pre&gt;
-$ rsync -avz /home/guivaloz/www/ml-cms/ -e ssh guivaloz@movimientolibre.com:/home/guivaloz/www/ml-cms/
-&lt;/pre&gt;
-
-&lt;h4 id=&quot;para-ejecutar-el-script-en-su-servidor&quot;&gt;Para ejecutar el script en su servidor&lt;/h4&gt;
-
-&lt;pre&gt;
-$ ssh guivaloz@movimientolibre.com /home/guivaloz/www/ml-cms/cms.rb
-&lt;/pre&gt;
-</description>
-      <author>guivaloz</author>
-      <pubDate>Tue, 13 May 2008 08:00:00 -0500</pubDate>
-      <dc:date>2008-05-13T08:00:00-05:00</dc:date>
+      <author>Sergio Aguilera</author>
+      <pubDate>Wed, 01 Jan 2014 07:05:00 -0600</pubDate>
+      <dc:date>2014-01-01T07:05:00-06:00</dc:date>
     </item>
   </channel>
 </rss>

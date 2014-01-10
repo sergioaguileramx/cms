@@ -51,14 +51,14 @@ imprenta = Imprenta.new
 # --------------------------------------------
 
 # URL del sitio, necesario para la sindicalización, NO debe tener diagonal al final
-imprenta.url_sitio = 'http://cms.movimientolibre.com'
+imprenta.url_sitio = 'http://blog.sergioaguilera.mx'
 
 # Nombre del sitio web
-TITULO_SITIO          = 'CMS de Movimiento Libre'
+TITULO_SITIO          = 'Sergio Aguilera> Web Developer - Githubber - Rubyholic'
 imprenta.titulo_sitio = TITULO_SITIO
 
 # Descripción del sitio web
-DESCRIPCION_SITIO    = 'Administrador de contenidos programado en Ruby. Ahora con Twitter Bootstrap.'
+DESCRIPCION_SITIO    = 'Blog dedicado a el desarrollo y las tecnologias'
 imprenta.frase_sitio = DESCRIPCION_SITIO
 
 # El anuncio sirve para mostrar un evento, reunión o acontecimiento próximo
@@ -66,12 +66,12 @@ imprenta.frase_sitio = DESCRIPCION_SITIO
 # imprenta.anuncio = ''
 
 # Arreglo con los nombres de los directorios donde se encuentran las publicaciones
-imprenta.publicaciones_directorios = %w{ acerca descargar screenshots documentacion licencias contacto }
+imprenta.publicaciones_directorios = %w{ entradas }
 
 # Arreglo con las etiquetas de los directorios donde se encuentran las publicaciones
 # Por ejemplo, un directorio llamado guia_inicio puede aparecer como "Guía de inicio"
 # No hay necesidad de definir una etiqueta si el nombre del directorio es igual a la etiqueta
-imprenta.publicaciones_etiquetas = { 'documentacion' => "Documentación" }
+imprenta.publicaciones_etiquetas = { }
 
 # Los Anexos sirven para injertar código HTML y/o JavaScript al final de cada publicación completa
 # Aparecen en la página dedicada a cada publicación; pero NO en la página inicial, archivos index, categorias o autores.
@@ -102,7 +102,7 @@ menu_principal.agregar('Contacto',       'contacto/')
 imprenta.publicaciones_por_pagina_maximo = 5
 
 # Autor por defecto, se aplica a las publicaciones que no lo tengan definido
-imprenta.autor_por_defecto = 'guivaloz'
+imprenta.autor_por_defecto = 'Sergio Aguilera'
 
 # Nombre del directorio donde se crearán los índices de cada categoría, por defecto 'categorias'
 # imprenta.categorias_directorio = 'categorias'
